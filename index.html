@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="On-chain generative SVG art, ethscribed on the Ethereum blockchain">
+        <meta name="author" content="Obi">
+        <title>Ethscrapers - by Obi</title>
+        
+        <meta property="og:title" content="Ethscrapers - by Obi">
+        <meta property="og:url" content="https://crypt0biwan.github.io/ethscrapers-outputs/">
+        <meta property="og:description" content="On-chain generative SVG art, ethscribed on the Ethereum blockchain">
+        <meta property="og:image" content="https://crypt0biwan.github.io/Arthereum/assets/arthereum-big.png">
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ethscrapers - by Obi" />
+        <meta name="twitter:description" content="On-chain generative SVG art, ethscribed on the Ethereum blockchain" />
+        <meta name="twitter:site" content="@crypt0biwan" />
+        <meta name="twitter:creator" content="@crypt0biwan" />
+        <meta name="twitter:image" content="https://crypt0biwan.github.io/Arthereum/assets/arthereum-big.png">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <style>
+            body { 
+                background: #666666;
+                background: -moz-linear-gradient(-45deg,  #666666 0%, #aaaaaa 100%);
+                background: -webkit-linear-gradient(-45deg,  #666666 0%,#aaaaaa 100%);
+                background: linear-gradient(135deg,  #666666 0%,#aaaaaa 100%);
+            }
+
+            footer { border-top: 2px solid #000; }
+
+            .card {
+                padding: 10px;
+            }
+
+            .pixel-image {
+                image-rendering: pixelated;
+            }
+        </style>
+    </head>
+
+    <body class="text-light">
+        <main>
+            <section class="pt-3 pt-sm-5 pb-2 text-center container">
+                <div class="row py-lg-3">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">🏙️ Ethscrapers 🏙️</h1>
+
+                        <p class="lead">
+                            On-chain generative SVG art, ethscribed on the Ethereum blockchain
+                        </p>
+
+                        <a class="btn btn-dark btn-lg" target="_blank" href="https://crypt0biwan.github.io/Ethscrapers/">➡️&nbsp;&nbsp;&nbsp;Mint your own&nbsp;&nbsp;&nbsp;⬅️</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="album py-5">
+                <div class="container-fluid">
+                    <div id="artwork" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-4">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        
+        <footer class="text-light py-5">
+            <div class="container-fluid">
+                <p class="mb-0 text-center">
+                    <a class="btn btn-outline-light" target="_blank" href="https://twitter.com/crypt0biwan">Contact Obi on Twitter</a>
+                </p>
+            </div>
+        </footer>
+        
+        <script>
+            const artworks = [
+                {
+                    "id": 133067,
+                    "hash": "0x4ae94d01cd81760a704b856f1a8f39e50481569d1aa9bb1daab46dee3c450282"
+                },
+                {
+                    "id": 133220,
+                    "hash": "0xa51bd90244c2772c4c9ebebbf2a6f7bfa2a232e959852bdf00c803837569c2c1"
+                },
+                {
+                    "id": 133237,
+                    "hash": "0x5af11937cffdac306106f0a4ac8304a215cc3ebdc586ac644a0170bff21dcc4b"
+                },
+                {
+                    "id": 133249,
+                    "hash": "0xe9f446196d71aed3fa0386f325c04fd748ad412c1ae594ace4bbd7615dc6a3fa"
+                },
+                {
+                    "id": 134185,
+                    "hash": "0x761065f0c193c6b8278affbcebfd3329f90388d6c20403326139af7134901ace"
+                },
+                {
+                    "id": 134641,
+                    "hash": "0xd448f00b773cfd54f69fe39f962a468e2f66839ae7387000f5ae38f49aeb386a"
+                },
+                {
+                    "id": 134662,
+                    "hash": "0xd510aebde0218e90f2fe42d86f9e4334cafd4ea38c5b869c3ae96fbb38554084"
+                },
+                {
+                    "id": 135250,
+                    "hash": "0xc6f87c15610acf2e537cfd37d2d33c5b9e4c2bbb4efc3bbebcc0018dcb84bf4e"
+                },
+                {
+                    "id": 135277,
+                    "hash": "0x594ba1196a498a709a8a5d54a25727b85d893b749396401bc8b2853790318efb"
+                },
+                {
+                    "id": 135451,
+                    "hash": "0x510facec81975cd5a65f15637d68399a173324adb8c241ea2a94d85d8020ed68"
+                },
+                {
+                    "id": 137933,
+                    "hash": "0x0d22ed2b49a6945ddaefb598f519123aac13e370fb180b3b7bfe5fb09d91409f"
+                },
+                {
+                    "id": 139762,
+                    "hash": "0xa525dd6d0a22641ffae10b88c11d6d1194f44105d0e062d1d6cddb532360efb2"
+                },
+                {
+                    "id": 139806,
+                    "hash": "0x8e835adbf881b8dde9bd7c172a557cfbbd3e15d991d5d9214defef306854ff8c"
+                },
+                {
+                    "id": 139860,
+                    "hash": "0x7073cde1009b01972662f0a79176e9dac87e8bb515352e7ffbed8449c70f76f6"
+                },
+                {
+                    "id": 139864,
+                    "hash": "0x5d112962d941c79cffb89e93f19a683ff5451923eb14b27f8f38ede1a104e30d"
+                },
+                {
+                    "id": 141540,
+                    "hash": "0x6468d88c23b5017a202b25129b1cb6537398a1cfd99b5c7197764650e92e8c1b"
+                },
+                {
+                    "id": 142151,
+                    "hash": "0x78e461d923aad19fa86fe0635b11743f08bf15c73420c368cac0cd86155b612b"
+                },
+                {
+                    "id": 142788,
+                    "hash": "0xd43e7ded87e89dbd5b068daf819702ec268301db5347b08cbf2d939adbd3806b"
+                },
+                {
+                    "id": 143790,
+                    "hash": "0x484ddd629b6ac04a2105e5b2a6ea31d05f667a4de429baae30b19cc2a2c1ecc2"
+                },
+                {
+                    "id": 151774,
+                    "hash": "0x6eac9dcf14da304a61593848a4cfb411fb2ea239cff6414e75074d130a88c240"
+                }
+            ]
+
+            const generate_overview = (target) => {
+                let html = ``
+                let index = 0
+
+                for(let i=0; i<artworks.length; i++) {
+                    let { id, hash } = artworks[i]
+
+                    html += `<div class="col sm-1 mb-3">
+                        <div class="card bg-black shadow-sm">
+                            <img class="card-img-top pixel-image" src="img/${hash}.svg" alt="Index #${id}">
+
+                            <div class="card-body text-white bg-black">
+                    `
+
+                    html += `   <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                                    <a class="btn btn-sm mb-2 mb-sm-0 btn-outline-light" target="_blank" href="https://ethscriptions.com/ethscriptions/${hash}">View on Ethscriptions</a>
+
+                                    <small style="text-align: right;">Index: ${id}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
+                }
+
+                target.innerHTML = html
+            }
+
+            generate_overview(document.getElementById('artwork'))
+        </script>
+    </body>
+</html>
