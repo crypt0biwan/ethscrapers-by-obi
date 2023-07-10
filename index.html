@@ -49,7 +49,7 @@
                         <h1 class="fw-light">🏙️ Ethscrapers 🏙️</h1>
 
                         <p class="lead">
-                           Generative SVG art, ethscribed on the Ethereum blockchain
+                           Generative SVG art, ethscribed on the Ethereum blockchain<br />Current supply: <span class="supply">..</span>
                         </p>
 
                         <a class="btn btn-dark btn-lg" target="_blank" href="https://crypt0biwan.github.io/Ethscrapers/">➡️&nbsp;&nbsp;&nbsp;Mint your own&nbsp;&nbsp;&nbsp;⬅️</a>
@@ -179,12 +179,19 @@
                 {
                     "id": 347312,
                     "hash": "0x3d330ab2695c17b947025746bcd535b9a63e1e01ea97a966a0e3c7bc2604184a"
+                },
+                {
+                    "id": 416726,
+                    "hash": "0xf9722eebf4832c1b9b0216927b614e102b07d301b4faaac7ebd8adbe33e095b9",
+                    "mint_hash": "0x4a88b163a4786884078f88c850b3780a53aee4120b3b5d96a7bac6bab7dfb3c1"
                 }
             ]
 
             const generate_overview = (target) => {
                 let html = ``
                 let index = 0
+
+                document.querySelector('.supply').innerHTML = `${artworks.length}`
 
                 for(let i=0; i<artworks.length; i++) {
                     let { id, hash } = artworks[i]
