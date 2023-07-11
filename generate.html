@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="On-chain generative SVG art, ethscribed on the Ethereum blockchain">
+        <meta name="author" content="Obi">
+        <title>Ethscrapers - by Obi</title>
+        
+        <meta property="og:title" content="Ethscrapers - by Obi">
+        <meta property="og:url" content="https://crypt0biwan.github.io/ethscrapers-outputs/">
+        <meta property="og:description" content="Generative SVG art, ethscribed on the Ethereum blockchain">
+        <meta property="og:image" content="https://crypt0biwan.github.io/ethscrapers-by-obi/ethscrapers-big.png">
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ethscrapers - by Obi" />
+        <meta name="twitter:description" content="Generative SVG art, ethscribed on the Ethereum blockchain" />
+        <meta name="twitter:site" content="@crypt0biwan" />
+        <meta name="twitter:creator" content="@crypt0biwan" />
+        <meta name="twitter:image" content="https://crypt0biwan.github.io/ethscrapers-by-obi/ethscrapers-big.png">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <style>
+            #artwork { width: auto; max-width: 80vh; height: auto; }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section class="pt-1 pt-sm-2 text-center container">
+                <div class="row pt-lg-3">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">🏙️ Ethscrapers 🏙️</h1>
+
+                        <p>As you may know, the input for the genart image is the payment tx that was sent to Obi. Here's a page to regenerate the specific output based on that mint tx hash (or leave out the hash to generate a new one).<br /><br />For the specific traits, see below the image. ✌️</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="pb-2">
+                <div class="container-fluid text-center">
+                    <img id="artwork" width="8000" height="8000" />
+                </div>
+
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col col-md-6">
+                            <table class="table table-bordered table-striped">
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="py-5">
+            <div class="container-fluid">
+                <p class="mb-0 text-center">
+                    <a class="btn btn-contact" target="_blank" href="https://twitter.com/crypt0biwan">Contact Obi on Twitter</a>
+                </p>
+            </div>
+        </footer>
+        
+        <script>
+            try {
+                let alphabet = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ"
+
+                const params = new Proxy(new URLSearchParams(window.location.search), {
+                    get: (searchParams, prop) => searchParams.get(prop),
+                })
+
+                let tokenHash = params.mint_hash
+
+                if(!tokenHash) {
+                    console.log('hash is missing, creating new one..')
+                    tokenHash = "0x" + [...Array(64)].map((t,n)=>alphabet[Math.random() * alphabet.length | 0]).join("");
+                }
+
+                (()=>{var e={73:(e,t)=>{let o=null,r=[{name:"Ankeny",colors:"011627,fdfffc,2ec4b6,e71d36,ff9f1c",backgrounds:"000000,011627,1e1729,3b182b"},{name:"Atbara",colors:"0c0a3e,7b1e7a,b33f62,f9564f,f3c677",backgrounds:"000000,0B0935,ffffff"},{name:"Cloverly",colors:"dec5e3,cdedfd,b6dcfe,a9f8fb,81f7e5",backgrounds:"000000,353036,054d42"},{name:"Ennigerloh",colors:"c5afa4,cc7e85,cf4d6f,a36d90,76818e",backgrounds:"000000"},{name:"Flers",colors:"9b5de5,f15bb5,fee440,00bbf9,00f5d4",backgrounds:"000000,391169,005c7a,3d3501"},{name:"Kiwira",colors:"395e66,387d7a,32936f,26a96c,2bc016",backgrounds:"ffffff"},{name:"Manouba",colors:"083d77,ebebd3,f4d35e,ee964b,f95738",backgrounds:"000000,05284c,631303"},{name:"Mahayag",colors:"6a040f,9d0208,d00000,dc2f02,e85d04,f48c06,faa307,ffba08",backgrounds:"000000"},{name:"Sirsi",colors:"ffd289,facc6b,ffd131,f5b82e,f4ac32",backgrounds:"000000,3a2a03"},{name:"Yamethin",colors:"04e762,f5b700,00a1e4,dc0073,89fc00",backgrounds:"000000"},{name:"Zumanad",colors:"000000,444444,888888,aaaaaa,ffffff",backgrounds:"000000"}],n=1e3,a=null,s=null,l={palette:null,particles:[],background_colors:[],palette_colors:[]};const i=(e,t)=>e+(t-e)*o.random_dec(),c=(e,t=0)=>(e<t&&(e=t),Math.floor(i(t,e)));function d(e){const t=a.getContext("2d").getImageData(e,0,1,1).data;return{r:t[0],g:t[1],b:t[2],a:1}}Object.prototype.toRGBA=function(){const{r:e,g:t,b:o,a:r}=this;return`rgba(${e}, ${t}, ${o}, ${r})`},Object.prototype.setAlpha=function(e){return{...this,a:e}};let f=[];const p=()=>{(()=>{l.step=c(40,6),l.border_size=[20,50,100][c(3,0)],l.w=n,l.h=n,l.palette=r[c(r.length,0)],l.background_colors=l.palette.backgrounds.split(",").map((e=>"#"+e)),l.palette_colors=l.palette.colors.split(",").map((e=>"#"+e)),i(1,0)<.5?l.background_color=l.background_colors[c(l.background_colors.length,0)]:l.background_color="#000000";let e=l.border_size/1e3*n;l.step_width=(l.w-2*e)/l.step,l.step_height=(l.h-2*e)/l.step,l.number_of_points_horizontal=Math.ceil((l.w-2*e)/l.step_width),l.number_of_points_vertical=Math.round((l.h-2*e)/l.step_height),l.margin_horizontal=Math.floor(e+l.step_width/2),l.margin_vertical=Math.floor(e+l.step_height/2)})(),s=document.createElementNS("http://www.w3.org/2000/svg","svg"),s.setAttribute("viewBox",`0 0 ${l.w} ${l.h}`),s.style.backgroundColor=l.background_color,s.style.width=l.w,s.style.height=l.h,l.background_color==='#ffffff' ? (document.body.classList.add('text-dark'),document.querySelector('.btn-contact').classList.add('btn-outline-dark'), document.querySelector('.table').classList.add('table-light')) : (document.body.classList.add('text-light'),document.querySelector('.btn-contact').classList.add('btn-outline-light'),document.querySelector('.table').classList.add('table-dark'));document.body.style.backgroundColor=l.background_color;for(let e=0;e<l.number_of_points_horizontal;e++){let e=c(l.number_of_points_vertical-1,5)*l.step_height;f.push(e)}a=document.createElement("canvas"),a.width=101,a.height=1,(()=>{for(let r=0;r<l.number_of_points_horizontal;r++)for(let n=0;n<l.number_of_points_vertical;n++){let a=r*l.step_width+l.margin_horizontal,s=n*l.step_height+l.margin_vertical;l.particles.push({position:[a,s],c:(e=l.palette_colors[c(l.palette_colors.length)],void 0,void 0,{...(t=e,o=/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(t),o?{r:parseInt(o[1],16),g:parseInt(o[2],16),b:parseInt(o[3],16)}:null),a:1})})}var e,t,o})(),l.particles.length?(((e,t,o,r,n)=>{const s=a.getContext("2d").createLinearGradient(0,0,115,0),l=1/n.length;let i=0;n.forEach((e=>{s.addColorStop(i,e),i+=l})),a.getContext("2d").fillStyle=s})(0,0,0,0,l.palette_colors),a.getContext("2d").fillRect(0,0,a.width,a.height),((e=0)=>{let t="",o=c(l.step_width,l.step+10),r=o/c(10,2),n=c(l.step_width,l.step+10),a=l.h-r,i=0,f=0,p=0,u=0,h=0,b=0,g=0,_=0,m=[],w=l.background_color,$=null;t+=`\n        <defs>\n            <linearGradient id="backgroundGradient" gradientTransform="rotate(90)">\n                <stop offset="0%" stop-color="${d(100).toRGBA()}" />\n                <stop offset="100%" stop-color="${d(0).toRGBA()}" />\n\n            </linearGradient>\n        </defs>\n    `;for(let e=l.w-l.border_size-o;e>l.border_size;e-=l.step_width){let s=c(l.number_of_points_vertical-1,l.number_of_points_vertical/5)*l.step_height;$=d(100-s/l.h*30).toRGBA(),m.push(s),i=e-n/2,f=a-l.step_height/2-r,p=i,u=s,h=p+o,b=u+r,g=h,_=f+r,t+=`<polygon points="${i},${f} ${p},${u} ${h},${b} ${g},${_}" fill="url('#backgroundGradient')" />`,i=h,f=b,p=i-o,u=f-r,h=p+o,b=u,g=h+o,_=f,t+=`<polygon points="${i},${f} ${p},${u} ${h},${b} ${g},${_}" fill="${$}" />`,f=a-l.step_height/2+r,p=i,u=s+r,h=p+o,b=u,g=i+o,_=f,t+=`<polygon points="${i},${f} ${p},${u} ${h},${b} ${g},${_}" fill="${w}" />`}((e,t,o=!1)=>{let r=document.createElementNS("http://www.w3.org/2000/svg","svg");o&&Object.keys(o).forEach((e=>{console.log(`${e}: ${o[e]}`),r.style[e]=o[e]})),r.setAttribute("viewBox",`0 0 ${l.w} ${l.h}`),r.style.width=l.w,r.style.height=l.h,r.classList.add(t),r.innerHTML=e,s.appendChild(r)})(t)})(),window.properties={Palette:l.palette.name,"Number of Ethscrapers":l.step},window.$generativeTraits=window.properties):console.log("nothing to paint ¯_(ツ)_/¯");var e=new XMLSerializer;return window.btoa(e.serializeToString(s))};e.exports={generate:function(e){o=new class{constructor(){this.useA=!1;let t=function(e){let t=parseInt(e.substr(0,8),16),o=parseInt(e.substr(8,8),16),r=parseInt(e.substr(16,8),16),n=parseInt(e.substr(24,8),16);return function(){r|=0;let e=((t|=0)+(o|=0)|0)+(n|=0)|0;return n=n+1|0,t=o^o>>>9,o=r+(r<<3)|0,r=(r=r<<21|r>>>11)+e|0,(e>>>0)/4294967296}};this.prngA=new t(e.substr(2,32)),this.prngB=new t(e.substr(34,32));for(let e=0;e<1e6;e+=2)this.prngA(),this.prngB()}random_dec(){return this.useA=!this.useA,this.useA?this.prngA():this.prngB()}random_num(e,t){return e+(t-e)*this.random_dec()}random_int(e,t){return Math.floor(this.random_num(e,t+1))}random_bool(e){return this.random_dec()<e}random_choice(e){return e[this.random_int(0,e.length-1)]}};let t=p();console.log("By obi"),console.log(`Hash: ${e}`),console.table(window.properties);let tableHtml='';Object.keys(window.$generativeTraits).forEach(trait => {tableHtml += `<tr><td>${trait}</td><td>${window.$generativeTraits[trait]}</td></tr>`});if(params.mint_hash){tableHtml += `<tr><td>Mint tx</td><td><a target="_blank" href="https://etherscan.io/tx/${tokenHash}">See on etherscan</a></td></tr>`};document.querySelector('table tbody').innerHTML = tableHtml;let r=`data:image/svg+xml;base64,${t}`;return document.querySelector("#artwork").setAttribute("src",r),r}}}},t={};function o(r){var n=t[r];if(void 0!==n)return n.exports;var a=t[r]={exports:{}};return e[r](a,a.exports,o),a.exports}o.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return o.d(t,{a:t}),t},o.d=(e,t)=>{for(var r in t)o.o(t,r)&&!o.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{"use strict";(0,o(73).generate)(tokenHash)})()})();
+            } catch(e) {
+                console.log(e)
+            }
+        </script>
+    </body>
+</html>
