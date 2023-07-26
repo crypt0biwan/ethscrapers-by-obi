@@ -1,0 +1,500 @@
+{
+  "name": "ethscrapers",
+  "description": "Generative SVG art, ethscribed on the Ethereum blockchain",
+  "total_supply": "27",
+  "logo_image_uri": "esc://ethscriptions/0x4ae94d01cd81760a704b856f1a8f39e50481569d1aa9bb1daab46dee3c450282/data",
+  "banner_image_uri": "",
+  "background_color": "#000000",
+  "twitter_link": "",
+  "website_link": "https://crypt0biwan.github.io/ethscrapers-by-obi/",
+  "discord_link": "",
+  "collection_items": [
+    {
+      "ethscription_id": "0x4ae94d01cd81760a704b856f1a8f39e50481569d1aa9bb1daab46dee3c450282",
+      "name": "Ethscrapers #1",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 1,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xa51bd90244c2772c4c9ebebbf2a6f7bfa2a232e959852bdf00c803837569c2c1",
+      "name": "Ethscrapers #2",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 2,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 20
+        }
+        
+      ]
+    },
+    {
+      "ethscription_id": "0x5af11937cffdac306106f0a4ac8304a215cc3ebdc586ac644a0170bff21dcc4b",
+      "name": "Ethscrapers #3",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 3,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xe9f446196d71aed3fa0386f325c04fd748ad412c1ae594ace4bbd7615dc6a3fa",
+      "name": "Ethscrapers #4",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 4,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x761065f0c193c6b8278affbcebfd3329f90388d6c20403326139af7134901ace",
+      "name": "Ethscrapers #5",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 5,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 26
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xd448f00b773cfd54f69fe39f962a468e2f66839ae7387000f5ae38f49aeb386a",
+      "name": "Ethscrapers #6",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 6,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "ankeny"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xd510aebde0218e90f2fe42d86f9e4334cafd4ea38c5b869c3ae96fbb38554084",
+      "name": "Ethscrapers #7",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 7,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "manouba"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xc6f87c15610acf2e537cfd37d2d33c5b9e4c2bbb4efc3bbebcc0018dcb84bf4e",
+      "name": "Ethscrapers #8",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 8,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x594ba1196a498a709a8a5d54a25727b85d893b749396401bc8b2853790318efb",
+      "name": "Ethscrapers #9",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 9,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x510facec81975cd5a65f15637d68399a173324adb8c241ea2a94d85d8020ed68",
+      "name": "Ethscrapers #10",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 10,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "sirsi"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x0d22ed2b49a6945ddaefb598f519123aac13e370fb180b3b7bfe5fb09d91409f",
+      "name": "Ethscrapers #11",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 11,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "yamethin"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xa525dd6d0a22641ffae10b88c11d6d1194f44105d0e062d1d6cddb532360efb2",
+      "name": "Ethscrapers #12",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 12,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "flers"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x8e835adbf881b8dde9bd7c172a557cfbbd3e15d991d5d9214defef306854ff8c",
+      "name": "Ethscrapers #13",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 13,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x7073cde1009b01972662f0a79176e9dac87e8bb515352e7ffbed8449c70f76f6",
+      "name": "Ethscrapers #14",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 14,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x5d112962d941c79cffb89e93f19a683ff5451923eb14b27f8f38ede1a104e30d",
+      "name": "Ethscrapers #15",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 15,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "cloverly"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x6468d88c23b5017a202b25129b1cb6537398a1cfd99b5c7197764650e92e8c1b",
+      "name": "Ethscrapers #16",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 16,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x78e461d923aad19fa86fe0635b11743f08bf15c73420c368cac0cd86155b612b",
+      "name": "Ethscrapers #17",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 17,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xd43e7ded87e89dbd5b068daf819702ec268301db5347b08cbf2d939adbd3806b",
+      "name": "Ethscrapers #18",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 18,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "ennigerloh"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x484ddd629b6ac04a2105e5b2a6ea31d05f667a4de429baae30b19cc2a2c1ecc2",
+      "name": "Ethscrapers #19",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 19,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x6eac9dcf14da304a61593848a4cfb411fb2ea239cff6414e75074d130a88c240",
+      "name": "Ethscrapers #20",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 20,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 36
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x680b86dbfc7ecf8202d0c39f779bf3b23beb8f4e9514a956aa29baa68d241254",
+      "name": "Ethscrapers #21",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 21,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "manouba"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x468a43e4adbddcc27ce449f782ebf39fcd27a46cab81cbbddb332cdf9104b448",
+      "name": "Ethscrapers #22",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 22,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x332a1fea9e4b3ca53dc552e7657af6226aebdb54a13ff9ad9fc5ea90a526a777",
+      "name": "Ethscrapers #23",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 23,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "flers"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x2e81fa20755f210c74dca8cbe9a733539247d789bd126ac04c07c2fcc63e8134",
+      "name": "Ethscrapers #24",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 24,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x79e006fe9591290cf05a34464aca9dd49c5ba69459966f8258e6eab27d89d53a",
+      "name": "Ethscrapers #25",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 25,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "cloverly"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0x3d330ab2695c17b947025746bcd535b9a63e1e01ea97a966a0e3c7bc2604184a",
+      "name": "Ethscrapers #26",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 26,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "ethscription_id": "0xf9722eebf4832c1b9b0216927b614e102b07d301b4faaac7ebd8adbe33e095b9",
+      "name": "Ethscrapers #27",
+      "description": "",
+      "external_url": "",
+      "background_color": "",
+      "item_index": 27,
+      "item_attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
