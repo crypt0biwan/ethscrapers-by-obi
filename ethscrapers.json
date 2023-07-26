@@ -1,6 +1,6 @@
 {
-  "name": "ethscrapers",
-  "description": "Generative SVG art, ethscribed on the Ethereum blockchain",
+  "name": "Ethscrapers",
+  "description": "The first generative art collection on Ethscriptions, ethscribed on the Ethereum blockchain.",
   "total_supply": "27",
   "logo_image_uri": "esc://ethscriptions/0x4ae94d01cd81760a704b856f1a8f39e50481569d1aa9bb1daab46dee3c450282/data",
   "banner_image_uri": "",
